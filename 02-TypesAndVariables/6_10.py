@@ -4,20 +4,20 @@
 
 movie = "The Lord of the Rings: The Return of the King"
 
-# print number of characters
+# 1. print number of characters
 print('Number of characters: ', len(movie))
 
-# print title in capital letters
-...
+# 2. print title in capital letters
+print('Uppercase:', movie.upper())
 
-# print title in small letters
-...
+# 3. print title in small letters
+print('Lowercase:', movie.lower())
 
-# print how many times the vowel "e" appears in the title
-...
+# 4. print how many times the vowel "e" appears in the title
+print('Count of "e":', movie.count('e'))
 
-# print where in the text is the word "Lord"
-...
+# 5. print where in the text is the word "Lord"
+print('Position of "Lord":', movie.find('Lord'))
 
-# print where in the text is the word "dragon"
-...
+# 6. print where in the text is the word "dragon"
+print('Position of "dragon":', movie.find('dragon'))  # Returns -1 because "dragon" is not there
