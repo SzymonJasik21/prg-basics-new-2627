@@ -5,3 +5,11 @@
  #Price with discount: 21.01
  #Reduction: 3.71
 
+amount = float(input('Enter product price: '))
+discount = float(input('Enter discount %: '))
+
+discount_amount = amount * (discount / 100)
+final_price = amount - discount_amount
+
+print(f'Price with discount: {final_price:.2f}')
+print(f'Reduction: {discount_amount:.2f}')
