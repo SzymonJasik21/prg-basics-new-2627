@@ -11,7 +11,6 @@ def f(n):
             primes_found = primes_found + 1
     return candidate
 
-
 if __name__ == "__main__":
     print(f(1))
     print(f(5))
